@@ -3,8 +3,37 @@
         propiedad: value;
     }
 */
-
+html {
+    font-size: 14px;
+}
 body {
-    background-color: blue;
-    color: rgb( 100,50,200);
+    background-color: #375B8A;
+    color: #FFD900;
+    font-family: "area-inktrap", sans-serif;
+
+}
+h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "restore", sans-serif;
+
+}
+h2 {
+    font-size: 20px;
+}
+
+
+
+p {
+    line-height: 1.5;
+}
+
+main {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
 }
